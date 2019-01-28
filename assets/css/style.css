@@ -1,5 +1,4 @@
-/*the index.html start of styling*/
-* {
+* {                                            /*the index.html start of styling*/
     box-sizing: border-box;
 }
 h1,h2,h3 { /*required font change to headings*/
@@ -28,7 +27,7 @@ h1,h2,h3 { /*required font change to headings*/
     font-size: 28px;
     font-weight: bolder;
     position: absolute;
-    left: 98px;
+    left: 110px;
 }
 #topnavbuttons{ /*container holding all the buttons in top right*/
     margin: 30px 10px 0px 0px;
@@ -76,8 +75,8 @@ main {/*the main content section with my background image repeating*/
     border-bottom: solid;
     border-color: lightgray;
     padding: 25px;
-    margin: 25px;
-    margin-bottom: 0px;
+    padding-left:0px;
+    margin: 5px 30px 0px 30px
 }
 #myaboutmeimage {/*the adjustments on my image*/
     padding:30px 20px 10px 30px;
@@ -89,6 +88,7 @@ main {/*the main content section with my background image repeating*/
     line-height: 2;
     color: #777777;
     padding: 25px;
+    padding-bottom:10px;
 }
 footer { /*the footer to the documents that may need to be sticky*/
     clear: both;
@@ -100,4 +100,26 @@ footer { /*the footer to the documents that may need to be sticky*/
     margin-bottom: 0px;
     font-size: 12px;
     color: #ffffff;
+}                                                /*End of INDEX.HTML Specific styling*/
+
+/*Start of Portfolio.HTML Specific Styling*/
+
+#portfoliomain {/*container ID holding Portfolio heading and images */
+    background-color:#ffffff;
+    width: 700px;
+    margin:auto;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px; 
 }
+#portfolioheading {
+    font-weight:bold;
+    font-size: 28px;
+    border-bottom: solid;
+    border-color: lightgray;
+    padding: 30px;
+    padding-left:0px;
+    margin: 0px 20px 0px 20px;
+}
+
+/*End of Portfolio.HTML Specific Styling*/
