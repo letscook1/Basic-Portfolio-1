@@ -241,27 +241,47 @@ Start of Contact.HTML Specific Styling      */
     border-color: lightgray;
     padding-left:0px;
     padding:0px 0px 20px 0px;
-    margin: 0px; 
+    margin: 0px 0px 10px 0px; 
     overflow: hidden;
+    line-height: 1.5;
 } 
 #name { /*have to syle the boxes to match the requirements*/
+    color: #777777;
+    padding: 10px 0px 10px 0px;
+    
     
 }
 #namebox {
-
+    color: #777777;
+    margin-top:10px;
+    padding:5px 0px 5px 5px;
 }
 #email {
-
+    color: #777777;
+    padding: 10px 0px 10px 0px;
 }
 #emailbox {
-
+    color: #777777;
+    margin-top:10px;
+    padding:5px 0px 5px 5px;
 }
 #message {
-
+    color: #777777;
+    padding: 10px 0px 10px 0px;
 }
 #messagebox {
-
+    color: #777777;
+    padding: 10px 0px 10px 0px;
+    margin-top:10px;
 }
 #submit1 {
-
+    background-color: #4aaaa5; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:10px;
 }
