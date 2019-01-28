@@ -105,6 +105,31 @@ footer { /*the footer to the documents that may need to be sticky*/
 }                                                /*End of INDEX.HTML Specific styling*/
 
 /*Start of Portfolio.HTML Specific Styling*/
+#topleftname1 {/*My name on the top left of the page inside of id fullnameinheader*/
+    background-color:#4aaaa5;
+    text-align: center;
+    padding: 25px 0px 25px 0px;
+    width: 250px;
+    height:100%;
+    float: left;
+    margin-left: 40px;
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 28px;
+    font-weight: bolder;
+    position: absolute;
+    left: 235px;
+}
+#topnavbuttons1 { /*container holding all the buttons in top right*/
+    margin: 30px 10px 0px 0px;
+    padding: 0;
+    float: right;
+    background-color: #ffffff;
+    border: none;
+    position: absolute;
+    right: 260px;
+    color: lightgrey;
+}
 #portmainbg {/*the main content section with my background image repeating*/
     padding:10px;
     clear: both;
@@ -132,37 +157,56 @@ footer { /*the footer to the documents that may need to be sticky*/
     border-color: lightgray;
     padding: 30px;
     padding-left:0px;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 30px 0px 30px;
 }
 #portblock {
     background-color: #777777;
 }
 .portlink {
-    background-color: yellow;
     padding: 20px;
-    width: 200px;
     box-sizing: border-box;
     float: left;
-    height: 200px;
-    border: solid;
+    height: 160px;
+    width:210px;
+    margin: 30px;
+    text-decoration: none;
+    overflow: hidden;
 }
-#porttitle {
-    background-color: greenyellow;
+.porttitle {
+    background-color: #4aaaa5;
     text-align: center;
-}/*
-#porta {
-
+    border: none;
+    padding: 20px 0px 20px 0px;
+    color: #ffffff;
+    position: relative;
+    bottom: -75px;
+    left: -19px;
+    width: inherit;
 }
+#porta {
+    background-image:url('../images/hangman.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+} 
 #portb {
-
+    background-image:url('../images/rpggame.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 #portc {
-
+    background-image:url('../images/triviagame.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 #portd {
-
+    background-image:url('../images/rutgersinfowidget.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 #porte {
-
-}*/
+    background-image:url('../images/rockpaperscissors.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 /*End of Portfolio.HTML Specific Styling*/
