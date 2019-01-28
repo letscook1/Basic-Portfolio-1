@@ -13,10 +13,12 @@
     <body>
         <!-- #ID topheader in Header element to keep the items inline with the text -->
      <header id = "topheader">
+        
             <!-- my name with a heading in the header with the ID topleftname -->
-            <h1 id ="topleftname">Vincent Shury</h1>
+            <h1 id ="topleftname1">Vincent Shury</h1>
+
             <!-- Buttons connecting to the other pages With the ID topnavbuttons -->
-            <nav id ="topnavbuttons">
+            <nav id ="topnavbuttons1">
                 <!--each button to other docs, has classname navbuttons-->
                 <a href ="index.html" class ="navbuttons">About</a>|
                 <a href ="portfolio.html" class ="navbuttons" id ="midnavbut">Portfolio</a>|
@@ -25,20 +27,34 @@
      </header>
 
      <!--Main to set background-->
-    <main>
+    <main id="contmainbg">
         
         <!--container to hold contact forms-->
         <div id="contactformbox">
+
             <!--The contact heading in the page-->
             <h1 id="contactme">Contact</h1>
+
             <!--Name form to be set up-->
-            <form>name</form>
+            <form id="name">Name:
+                <br>
+                <input id="namebox" type="text" value="John Smith" size="92">
+            </form>
+
             <!--email form -->
-            <form>email</form>
-            <!--Message form here-->
-            <form>Message</form>
+            <form id="email">Email
+                <br>
+                <input id="emailbox" type="text" value="example@gmail.com" size="92">
+            </form>
+
+            <!--Message form here--><label>Message:</label>
+            <textarea rows="10" cols="80">
+                
+            </textarea>
+
             <!--submit button here to take to new page that displays message sent-->
-            <button type="button">Submit</button>
+            <button id="submit1" type="button">Submit</button>
+
         </div>
 
     </main>

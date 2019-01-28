@@ -28,6 +28,7 @@ h1,h2,h3 { /*required font change to headings*/
     font-weight: bolder;
     position: absolute;
     left: 110px;
+    pointer-events: none;
 }
 #topnavbuttons{ /*container holding all the buttons in top right*/
     margin: 30px 10px 0px 0px;
@@ -76,7 +77,8 @@ main {/*the main content section with my background image repeating*/
     border-color: lightgray;
     padding: 25px;
     padding-left:0px;
-    margin: 5px 30px 0px 30px
+    margin: 5px 30px 0px 30px;
+    pointer-events: none;
 }
 #myaboutmeimage {/*the adjustments on my image*/
     padding:30px 20px 10px 30px;
@@ -102,9 +104,9 @@ footer { /*the footer to the documents that may need to be sticky*/
     margin-bottom: 0px;
     font-size: 12px;
     color: #ffffff;
-}                                                /*End of INDEX.HTML Specific styling*/
+}/*                                                         End of INDEX.HTML Specific styling
 
-/*Start of Portfolio.HTML Specific Styling*/
+    Start of Portfolio.HTML Specific Styling*/
 #topleftname1 {/*My name on the top left of the page inside of id fullnameinheader*/
     background-color:#4aaaa5;
     text-align: center;
@@ -119,6 +121,7 @@ footer { /*the footer to the documents that may need to be sticky*/
     font-weight: bolder;
     position: absolute;
     left: 235px;
+    pointer-events: none;
 }
 #topnavbuttons1 { /*container holding all the buttons in top right*/
     margin: 30px 10px 0px 0px;
@@ -151,7 +154,7 @@ footer { /*the footer to the documents that may need to be sticky*/
     overflow: hidden;
 }
 #portfolioheading {
-    font-weight:bold;
+    font-weight:bold;/*adjustments to shrink the header on port page*/
     font-size: 28px;
     border-bottom: solid;
     border-color: lightgray;
@@ -159,10 +162,7 @@ footer { /*the footer to the documents that may need to be sticky*/
     padding-left:0px;
     margin: 0px 30px 0px 30px;
 }
-#portblock {
-    background-color: #777777;
-}
-.portlink {
+.portbox {/*the boxes that hold the heading with the images behind them*/
     padding: 20px;
     box-sizing: border-box;
     float: left;
@@ -172,7 +172,7 @@ footer { /*the footer to the documents that may need to be sticky*/
     text-decoration: none;
     overflow: hidden;
 }
-.porttitle {
+.porttitle {/*the headings inside the image boxes*/
     background-color: #4aaaa5;
     text-align: center;
     border: none;
@@ -180,33 +180,88 @@ footer { /*the footer to the documents that may need to be sticky*/
     color: #ffffff;
     position: relative;
     bottom: -75px;
-    left: -19px;
+    left: -20px;
     width: inherit;
 }
-#porta {
+#porta {/*the specific backgrounds for the image boxes*/
     background-image:url('../images/hangman.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     
 } 
-#portb {
+#portb {/*the specific backgrounds for the image boxes*/
     background-image:url('../images/rpggame.jpg');
     background-repeat: no-repeat;
     background-size: contain;
 }
-#portc {
+#portc {/*the specific backgrounds for the image boxes*/
     background-image:url('../images/triviagame.jpg');
     background-repeat: no-repeat;
     background-size: contain;
 }
-#portd {
+#portd {/*the specific backgrounds for the image boxes*/
     background-image:url('../images/rutgersinfowidget.jpg');
     background-repeat: no-repeat;
     background-size: contain;
 }
-#porte {
+#porte {/*the specific backgrounds for the image boxes*/
     background-image:url('../images/rockpaperscissors.jpg');
     background-repeat: no-repeat;
     background-size: contain;
 }
-/*End of Portfolio.HTML Specific Styling*/
+/*                                                      End of Portfolio.HTML Specific Styling
+
+Start of Contact.HTML Specific Styling      */
+#contmainbg {/*the main content section with my background image repeating, height set to push down footer*/
+    padding:10px;
+    clear: both;
+    background-image:url('../images/gaming-pattern.png');
+    background-repeat: repeat;
+    position:relative;
+    z-index:1;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    height: 600px;
+}
+#contactformbox {/*container ID holding contact heading and text boxes */
+    background-color:#ffffff;
+    width: 700px;
+    margin:auto;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px; 
+    overflow: hidden;
+    padding: 25px;
+}
+#contactme{
+    font-weight:bold;/*adjustments to shrink the header contact page*/
+    font-size: 28px;
+    border-bottom: solid;
+    border-color: lightgray;
+    padding-left:0px;
+    padding:0px 0px 20px 0px;
+    margin: 0px; 
+    overflow: hidden;
+} 
+#name { /*have to syle the boxes to match the requirements*/
+    
+}
+#namebox {
+
+}
+#email {
+
+}
+#emailbox {
+
+}
+#message {
+
+}
+#messagebox {
+
+}
+#submit1 {
+
+}
